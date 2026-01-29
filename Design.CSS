@@ -1,0 +1,15 @@
+body{
+    background-color: black;
+}
+
+.frame{
+    position: absolute;
+    height: 50%;
+    width: 30%;
+    top: 25%;
+    left: 35%;
+    box-shadow: 1px 1px 20px white;
+    border-radius: 10px;
+     background: -webkit-linear-gradient(bottom left, #43389F 0%, #4ec6ca 100%);
+  
+}
