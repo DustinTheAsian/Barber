@@ -13,3 +13,51 @@ body{
      background: -webkit-linear-gradient(bottom left, #43389F 0%, #4ec6ca 100%);
   
 }
+
+.BT1{
+    position: absolute;
+    top: 15%;
+    left: 33%;
+    padding: 20px 50px;
+    border-radius: 10px;
+    border: none;   
+
+    &:hover{
+        transform: scale(1.1);
+        transition: 0.3s ease-in-out;
+        box-shadow: 1px 1px 20px white;
+        
+    }
+}
+
+.BT2{
+    position: absolute;
+    top: 43%;
+    left: 33%;
+    padding: 20px 50px;
+    border-radius: 10px;
+    border: none;   
+
+    &:hover{
+        transform: scale(1.1);
+        transition: 0.3s ease-in-out;
+        box-shadow: 1px 1px 20px white;
+        
+    }
+}
+
+.BT3{
+    position: absolute;
+    top: 72%;
+    left: 33%;
+    padding: 20px 50px;
+    border-radius: 10px;
+    border: none;   
+
+    &:hover{
+        transform: scale(1.1);
+        transition: 0.3s ease-in-out;
+        box-shadow: 1px 1px 20px white;
+        
+    }
+}
