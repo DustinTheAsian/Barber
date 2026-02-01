@@ -1,9 +1,17 @@
-body{
-    background-color: gray;
+.Boxes{
+    display:grid;
+    grid-template-columns: 110px 110px 400px;
+    
 }
 
-.frame{
-    width:300px;
-    height: 250px;
-    background: white;
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 186, 248);
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3px 3px 3px 3px;
 }
