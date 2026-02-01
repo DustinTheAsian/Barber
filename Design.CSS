@@ -20,15 +20,20 @@ body{
     left: 33%;
     padding: 20px 50px;
     border-radius: 10px;
-    border: none;   
+    border: none; 
+    transition: 0.3s ease-in-out;  
 
     &:hover{
         transform: scale(1.1);
-        transition: 0.3s ease-in-out;
         box-shadow: 1px 1px 20px white;
+    }
+    &:active{
+        transform: scale(0.9);
+        box-shadow: none;
+    }
         
     }
-}
+
 
 .BT2{
     position: absolute;
