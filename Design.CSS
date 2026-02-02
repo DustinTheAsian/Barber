@@ -27,12 +27,43 @@ body{
     height: 300px;
     padding: 90px;
     background-color: white;
-    text-align: center;
-    align-items: center;
-    justify-items: center;
+    place-items: center;
     display: grid;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+}
+
+.item2s{
+    border: solid black 2px;
+    height: 300px;
+    padding: 90px;
+    background-color: white;
+
+    display: grid;
+    place-items: center;
+
+    position: relative;
+    top: -50px; /* move it up a little */
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.item3s{
+     border: solid black 2px;
+    height: 300px;
+    padding: 90px;
+    background-color: white;
+
+    display: grid;
+    place-items: center;
+
+    position: relative;
+    top: 50px; /* move it up a little */
+    
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
 }
 
 .itemsss{
