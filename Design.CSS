@@ -37,3 +37,7 @@ body{
     text-align: center;
     background-color: orange;
 }
+
+.grid-container{
+    font-display: auto;
+}
