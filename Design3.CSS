@@ -1,0 +1,27 @@
+body{
+    background-color: gray;
+    font-style: arial;
+    padding: 0px;
+    margin: 0px;
+}   
+
+#query {
+  position: absolute;
+  width: 300px;
+  padding: 10px;
+  border-radius: 6px;
+  justify-items: center;
+  top: 20px;
+  left: 40%;
+  border-radius: 5px;
+  border: none;
+}
+
+.Navbar{
+    position: absolute;
+    justify-items: center;
+    background-color: blue;
+    height: 10%;
+    width: 100%;
+}
+
