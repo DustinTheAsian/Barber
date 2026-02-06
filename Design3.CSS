@@ -2,21 +2,22 @@ body {
   font-family: Arial, sans-serif;
 }
 
+/* Search bar */
 #query {
-  position: absolute;
-  width: 300px;
-  height: 90px; 
-  padding: 10px;
+  width: 400px;
+  height: 40px;      
+  padding: 0 12px;
   border-radius: 6px;
-  top: 20px;
-  left: 40%;
   border: none;
+  outline: none;
+  font-size: 14px;
+  box-sizing: border-box;
 }
 
 /* Navbar */
 .Navbar {
   background-color: blue;
-  height: 70px;
+  height: 80px;
   width: 100%;
   display: flex;
   align-items: center;     /* vertical center */
@@ -28,17 +29,16 @@ body {
     height: 70px;
 }
 
-
-.Navbar{
-    position: absolute;
-    justify-items: center;
-    background-color: blue;
-    height: 10%;
-    width: 100%;
-}
-
 .Markiplier{
     position: absolute;
     top: 20%;
+    background-color: blue;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+.Marky{
+  height: 200px;
+  padding: 15px;
 }
 
