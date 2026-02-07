@@ -9,7 +9,7 @@ body {
 .video-grid {
   position: absolute;
   display: grid;
-  grid-template-columns: repeat(3, minmax(100px, 1fr));
+  grid-template-columns: repeat(4, minmax(100px, 1fr));
   gap: 20px;
   justify-items: center;
 }
@@ -33,9 +33,10 @@ body {
 
 /* THUMBNAIL */
 .thumbnail {
-  width: 100%;
+  width: 90%;   /* try 80%, 85%, etc */
   border-radius: 10px;
 }
+
 
 /* INFO SECTION */
 .video-info {
