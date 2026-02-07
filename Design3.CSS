@@ -1,94 +1,67 @@
 body {
   font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 20px;
 }
 
-/* Search bar */
-#query {
-  width: 400px;
-  height: 40px;      
-  padding: 0 12px;
-  border-radius: 6px;
-  border: none;
-  outline: none;
-  font-size: 14px;
-  box-sizing: border-box;
+/* GRID LAYOUT */
+.video-grid {
+  position: absolute;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(100px, 1fr));
+  gap: 20px;
+  justify-items: center;
 }
 
-/* Navbar */
-.Navbar {
-  background-color: blue;
-  height: 80px;
-  width: 100%;
-  display: flex;
-  align-items: center;     /* vertical center */
-  justify-content: center; /* horizontal center */
+/* VIDEO CARD */
+.video-card {
+ 
+  cursor: pointer;
+  padding: 10px;
+  
 }
 
-
-.search{
-    height: 70px;
-}
-
-.Inter{
-    position: absolute;
-    top: 20%;
-    border-radius: 5px;
-    margin-left: 15px;
-}
-
-.Inter:hover{
-  box-shadow: 1px 1px 5px black;
+.video-card:hover{
   transition: 0.4s;
+  box-shadow: 1px 1px 10px black;
 }
 
-.prof1{
-  position: relative;
-  height: 30px;
-  width: 30px;
-  border-radius: 36px;
-  left: 17px;
-  background-color: black;
-  top: -20px;
+.text{
+  padding-top: 10px;
 }
 
-.Intv{
-  height: 200px;
-  padding: 15px;
+/* THUMBNAIL */
+.thumbnail {
+  width: 100%;
+  border-radius: 10px;
 }
 
-.Inter .parag1{
-  position: relative;
-  left: 60px;
-  bottom: 70px;
+/* INFO SECTION */
+.video-info {
+  display: flex;
+  margin-top: 10px;
+}
+
+/* PROFILE IMAGE */
+.profile {
+  width: 36px;
+  height: 36px;
+  padding-top: 10px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+/* TEXT */
+.text h3 {
   font-size: 14px;
-  font-weight: bold;
-  line-height: 20px;
-
+  margin: 0;
+  line-height: 18px;
 }
 
-.Inter .paragg1{
-  position: relative;
-  left: 60px;
-  bottom: 20px;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 20px;
-  display: block;
+.text p {
+  font-size: 12px;
+  color: #606060;
+  margin: 4px 0 0;
 }
-
-.Markiplier{
-   position: absolute;
-    top: 20%;
-    border-radius: 5px;
-    margin-left: 500px;
-}
-
-.marki{
-   height: 200px;
-  padding: 15px;
-}
-
-
-
-
 
