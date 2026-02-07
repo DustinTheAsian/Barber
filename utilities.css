@@ -1,0 +1,19 @@
+.pe-none {
+  pointer-events: none;
+}
+.d-inhertit {
+  display: inherit;
+}
+.w-full {
+  width: 100%;
+}
+.h-full {
+  height: 100%;
+}
+.fg-white {
+  color: white;
+}
+.fill-white {
+  fill: white;
+  color: white;
+}
